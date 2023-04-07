@@ -13,24 +13,14 @@ class Person {
 }
 
 class Student extends Person {
-	constructor(name, age) {
-    super(name, age);
-  }
-
-  // Method to log studying
   study() {
-    console.log(`${this._name} is studying.`);
+    console.log(this.name + ' is studying.`);
   }
 }
 
 class Teacher extends Person {
-	 constructor(name, age) {
-    super(name, age);
-  }
-
-  // Method to log teaching
   teach() {
-    console.log(`${this._name} is teaching.`);
+    console.log(this.name+ ' is teaching.`);
   }
 }
 
